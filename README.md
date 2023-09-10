@@ -1,4 +1,4 @@
-Digital Clock
+## Digital Clock
 
 This is a simple web-based digital clock that displays the current time in hours, minutes, and seconds. The clock features a visually appealing design with vibrant gradient colors and a modern look.
 
