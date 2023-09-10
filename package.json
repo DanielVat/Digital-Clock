@@ -1,0 +1,27 @@
+{
+  "name": "digital-clock",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Digital Clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require esm --require jsdom-global/register 'src/test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "chai": "^4.3.8",
+    "esm": "^3.2.25",
+    "jsdom": "^22.1.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^10.2.0",
+    "sinon": "^15.2.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.9.1"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
