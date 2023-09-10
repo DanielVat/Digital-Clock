@@ -19,29 +19,7 @@
             </div>
         </div>
     </div>
-
-<script>
-function myTime() {
-    let hrs = document.getElementById("hrs");
-    let min = document.getElementById("min");
-    let sec = document.getElementById("sec");
-
-    let currentTime = new Date();
-
-    // Use the pad function to add leading zeros
-    function pad(num) {
-        return num < 10 ? "0" + num : num;
-    }
-
-    hrs.innerHTML = pad(currentTime.getHours());
-    min.innerHTML = pad(currentTime.getMinutes());
-    sec.innerHTML = pad(currentTime.getSeconds());
-}
-
-myTime();
-setInterval(myTime, 1000);
-
-</script>
-
+<script type="module" src="script.js"></script>
+<script type="module" src="utils.js"></script>
 </body>
 </html>
