@@ -22,7 +22,7 @@ describe('myTime', () => {
   it('Updates DOM elements with current time', () => {
     const clock = sinon.useFakeTimers(new Date('2023-09-09T14:00:00').getTime());
 
-    // Call the myTime function
+    
     myTime();
 
     // Assert that the DOM elements have been updated correctly
